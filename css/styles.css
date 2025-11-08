@@ -286,48 +286,44 @@ img {
   column-gap: 24px;
   row-gap: 48px;
   width: calc(100% - 96px) / 6;
-  border-top: none; 
 }
 
 .item-portfolio {
   background-color: #ffffff;
   border-style: dashed 2px black;
-
- 
+  border-top: none;
 }
 
 .portfolio-content {
   padding: 32px 16px;
-  border: solid 1px #e7e9fc;;
+  border: solid 1px #e7e9fc;
 }
 
 /* #endregion portfolio*/
 
 /* #region footer*/
 .footer {
-  background-color: #2E2F42;
+  background-color: #2e2f42;
   padding: 100px 0;
 }
 
 .footer-text {
   font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #f4f4fd;
-    padding-top: 16px;
-        max-width: 264px;
-
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  padding-top: 16px;
+  max-width: 264px;
 }
 
 .logo-footer {
-    display: inline-block; 
-    margin-bottom: 16px; 
-
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .studio-white {
-  color: #ffffff
+  color: #ffffff;
 }
 
 .guerrero-card {
