@@ -278,7 +278,7 @@ img {
 /* #endregion team*/
 
 /* #region portfolio*/
-.Portfolio-list {
+.portfolio-list {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -286,6 +286,7 @@ img {
   column-gap: 24px;
   row-gap: 48px;
   width: calc(100% - 96px) / 6;
+  border-top: none; 
 }
 
 .item-portfolio {
@@ -316,6 +317,12 @@ img {
     color: #f4f4fd;
     padding-top: 16px;
         max-width: 264px;
+
+}
+
+.logo-footer {
+    display: inline-block; 
+    margin-bottom: 16px; 
 
 }
 
