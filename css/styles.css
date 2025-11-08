@@ -285,13 +285,12 @@ img {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  width: calc(100% - 96px) / 6;
+  border-top: none;
 }
 
 .item-portfolio {
   background-color: #ffffff;
   border-style: dashed 2px black;
-  border-top: none;
 }
 
 .portfolio-content {
